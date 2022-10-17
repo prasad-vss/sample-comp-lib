@@ -1,12 +1,11 @@
 {
   "name": "@prasad-vss/sample-comp-lib",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
     "start": "react-scripts start",
-    "copy":"copy package.json dist && copy README.MD dist",
+    "copy": "copy package.json dist && copy README.MD dist",
     "build": "rimraf ./dist && mkdirp ./dist && NODE_ENV=production babel lib --out-dir dist --copy-files && npm run copy",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -44,7 +43,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "directories": {
