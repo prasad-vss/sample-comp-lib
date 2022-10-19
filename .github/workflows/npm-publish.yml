@@ -5,7 +5,7 @@ name: Node.js Package
 
 on:
   push:
-    branches: - main
+    branches: main
 
 jobs:
   publish-gpr:
@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
-          scope:'@prasad-vss'
+          scope: '@prasad-vss'
       - run: npm install
       - run: npm publish
         env:
