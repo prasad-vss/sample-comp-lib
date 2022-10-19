@@ -18,6 +18,8 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@prasad-vss'
       - run: npm install
+      - run: npm run build
+      - run: cd dist
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: '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'
