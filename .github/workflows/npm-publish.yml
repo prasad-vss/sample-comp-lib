@@ -23,4 +23,4 @@ jobs:
       - run: cd dist
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: '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'
