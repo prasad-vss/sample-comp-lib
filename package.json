@@ -1,6 +1,6 @@
 {
   "name": "@prasad-vss/sample-comp-lib",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "private": false,
   "dependencies": {},
   "scripts": {
@@ -17,7 +17,7 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@prasad-vss"
   },
   "browserslist": {
     "production": [
