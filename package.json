@@ -1,6 +1,6 @@
 {
   "name": "@prasad-vss/sample-comp-lib",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "private": false,
   "dependencies": {},
   "scripts": {
@@ -53,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prasad-vss/sample-comp-lib.git"
+    "url": "https://github.com/prasad-vss/sample-comp-lib.git"
   },
   "author": "",
   "license": "ISC",
