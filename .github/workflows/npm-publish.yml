@@ -23,7 +23,6 @@ jobs:
           scope: '@prasad-vss'
       - run: npm install
       - run: npm install win-node-env
-      - run: npm version patch -f
       - run: npm run build
       - run: npm uninstall win-node-env
       - run: cd dist
