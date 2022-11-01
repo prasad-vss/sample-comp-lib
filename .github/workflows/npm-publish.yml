@@ -6,14 +6,13 @@ name: Node.js Package
 on:
   push:
     branches: main
-    
-permissions:
-  contents: read
-  packages: write
   
 jobs:
   publish-gpr:
     runs-on: windows-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
       - uses: actions/labeler@v2
         with:
