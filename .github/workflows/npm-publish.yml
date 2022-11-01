@@ -24,4 +24,4 @@ jobs:
       - run: cd dist
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.token }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
